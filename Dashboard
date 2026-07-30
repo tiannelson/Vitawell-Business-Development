@@ -1,0 +1,3 @@
+$ echo 'cd "/Users/tianelson/Claude/vitawell-dashboard" && git branch -M main && git remote add origin <https://github.com/tiannelson/Vitawell-Business-Development.git > && git push -u origin main'
+
+cd "/Users/tianelson/Claude/vitawell-dashboard" && git branch -M main && git remote add origin <https://github.com/tiannelson/Vitawell-Business-Development.git > && git push -u origin main
