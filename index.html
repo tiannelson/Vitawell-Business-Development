@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vitawell Animal Nutrition — Growth Strategy Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hero">
+  <h1 id="company-name">Vitawell Animal Nutrition</h1>
+  <p class="subtitle" id="briefing-title">Growth Strategy Briefing — Consolidated Data &amp; Insights</p>
+  <p class="meta" id="meta-line"></p>
+</header>
+
+<nav class="tabs">
+  <button class="active" data-target="panel-overview">Overview</button>
+  <button data-target="panel-market">Market Position</button>
+  <button data-target="panel-sales">Sales Performance</button>
+  <button data-target="panel-customer">Customer Insights</button>
+  <button data-target="panel-rnd">R&amp;D Pipeline</button>
+  <button data-target="panel-actions">Action Items</button>
+  <button data-target="panel-recs">Recommendations</button>
+</nav>
+
+<main>
+
+  <section class="panel active" id="panel-overview">
+    <h2 class="section-title">Executive Summary</h2>
+    <div class="kpi-row" id="kpi-row"></div>
+    <div class="card">
+      <ul class="insight-list" id="exec-summary-list"></ul>
+    </div>
+    <h2 class="section-title">Top Recommendations</h2>
+    <div id="overview-recommendations"></div>
+  </section>
+
+  <section class="panel" id="panel-market">
+    <h2 class="section-title">Market Position</h2>
+
+    <h3 class="subsection-title">Segment Share — Premium Functional &amp; Therapeutic Pet Nutrition (FY2025)</h3>
+    <div id="segment-share-table"></div>
+
+    <h3 class="subsection-title">Retail Pricing — Premium Adult Dry Kibble (15 lb bag)</h3>
+    <div id="retail-pricing-table"></div>
+
+    <h3 class="subsection-title">Product Line Gaps</h3>
+    <div id="product-gaps-table"></div>
+
+    <h3 class="subsection-title">SWOT Summary</h3>
+    <div class="two-col">
+      <div class="card">
+        <strong>Strengths</strong>
+        <ul class="insight-list" id="swot-strengths"></ul>
+      </div>
+      <div class="card">
+        <strong>Weaknesses</strong>
+        <ul class="insight-list" id="swot-weaknesses"></ul>
+      </div>
+      <div class="card">
+        <strong>Opportunities</strong>
+        <ul class="insight-list" id="swot-opportunities"></ul>
+      </div>
+      <div class="card">
+        <strong>Threats</strong>
+        <ul class="insight-list" id="swot-threats"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-sales">
+    <h2 class="section-title">Sales Performance Snapshot (FY2023–FY2025)</h2>
+
+    <h3 class="subsection-title">Revenue by Product Line</h3>
+    <div id="revenue-by-product-table"></div>
+
+    <h3 class="subsection-title">Revenue by Region</h3>
+    <div id="revenue-by-region-table"></div>
+
+    <h3 class="subsection-title">Revenue by Customer Channel</h3>
+    <div id="revenue-by-channel-table"></div>
+  </section>
+
+  <section class="panel" id="panel-customer">
+    <h2 class="section-title">Customer &amp; Market Research Insights</h2>
+
+    <h3 class="subsection-title">Purchase Drivers</h3>
+    <div id="purchase-drivers-table"></div>
+
+    <div class="two-col">
+      <div class="card">
+        <strong>Recurring Pain Points</strong>
+        <ul class="insight-list" id="pain-points-list"></ul>
+      </div>
+      <div class="card">
+        <strong>Industry Trend Notes</strong>
+        <ul class="insight-list" id="trend-notes-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-rnd">
+    <h2 class="section-title">R&amp;D Pipeline</h2>
+    <div id="rd-pipeline-table"></div>
+
+    <div class="two-col">
+      <div class="card">
+        <strong>Key Formulation Targets</strong>
+        <ul class="insight-list" id="formulation-targets-list"></ul>
+      </div>
+      <div class="card">
+        <strong>Flagged Risks</strong>
+        <ul class="insight-list" id="flagged-risks-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-actions">
+    <h2 class="section-title">Growth Strategy &amp; Action Items</h2>
+    <div id="action-items-table"></div>
+
+    <h3 class="subsection-title">Open Risks / Questions</h3>
+    <div class="card">
+      <ul class="insight-list" id="open-questions-list"></ul>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-recs">
+    <h2 class="section-title">Consolidated Recommendations</h2>
+    <p style="color: var(--text-muted); font-style: italic;">Patterns identified by cross-referencing all five source documents.</p>
+    <div id="recommendations-full-list"></div>
+  </section>
+
+</main>
+
+<footer class="app-footer">
+  Vitawell Animal Nutrition is a fictional company used for a business-strategy planning scenario. Data compiled for coursework only.
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
