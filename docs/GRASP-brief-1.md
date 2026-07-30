@@ -1,4 +1,4 @@
-# GRASP Brief 1
+# GRASP Brief Stage 1
 
 *Replace this file's contents with your first GRASP brief.*
 
