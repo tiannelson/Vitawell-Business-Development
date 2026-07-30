@@ -38,7 +38,9 @@ That's it. It runs entirely in your browser using the local files (`index.html`,
   open index.html
   ```
   (On Windows/Linux, replace `open` with double-clicking the file or `start index.html` / `xdg-open index.html`.)
-- Or enable **GitHub Pages** for this repo (Settings → Pages → Deploy from branch → `main` / root) to get a live hosted link.
+- Or use **GitHub Pages** for this repo (Settings → Pages → Deploy from branch → `main` / root) to get a live hosted link.
+- Click on this link https://tiannelson.github.io/Vitawell-Business-Development/ to view dashboard in a browser.
+  
 
 ## Repository contents
 
