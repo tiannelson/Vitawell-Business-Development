@@ -2,6 +2,7 @@
 
 An interactive dashboard that consolidates the Vitawell Animal Nutrition growth-strategy briefing (competitor market analysis, FY2023–25 sales performance, R&D pipeline, customer research, and leadership action items) into one filterable, sortable view — built so someone deciding where to invest next could actually use it, not just read about it.
 
+
 Vitawell is a **fictional company** used for a business-strategy course scenario. All figures come from the consolidated briefing document prepared for this assignment.
 
 ## What it does
